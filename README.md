@@ -187,7 +187,7 @@ select name,author,price from book where price = ${50}
 select name,author,price from book where price = #{price}
 ```
 
-
+注意：推荐使用#{} 
 
 
 
